@@ -1,0 +1,158 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Veriy title",
+        "description": "",
+        "id": "amazon-login;veriy-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5904258651,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the home page",
+            "match": {
+              "location": "LoginStepDefinitions.The_user_is_on_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1369741425,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify page title",
+            "match": {
+              "location": "LoginStepDefinitions.Verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@scen1"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Successful Login",
+        "description": "",
+        "id": "amazon-login;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2297037103,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user is on the website page",
+            "match": {
+              "location": "LoginStepDefinitions.The_user_is_on_the_website_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2241058423,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the Login button",
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 315737172,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter email",
+            "match": {
+              "location": "LoginStepDefinitions.user_enter_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 976243409,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicks on continue",
+            "match": {
+              "location": "LoginStepDefinitions.clicks_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108736449,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter password",
+            "match": {
+              "location": "LoginStepDefinitions.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2728635739,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on Login",
+            "match": {
+              "location": "LoginStepDefinitions.user_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23796,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should be logged into the application",
+            "match": {
+              "location": "LoginStepDefinitions.user_should_be_logged_into_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@scen2"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Login",
+    "description": "",
+    "id": "amazon-login",
+    "keyword": "Feature",
+    "uri": "LoginAmaz.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AmazonLogin"
+      }
+    ]
+  }
+]

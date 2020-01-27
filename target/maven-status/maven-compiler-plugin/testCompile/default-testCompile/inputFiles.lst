@@ -1,0 +1,10 @@
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/utilites/Wait.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/amazon/pageLocaters/ItemSearchLocator.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/amazon/pageLocaters/LoginPage2Locators.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/amazon/pageLocaters/AbstractPage.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/amazon/RunnerTest.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/utilites/GenericDrivers.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/amazon/stepdefinitions/ItemSearchDefinition.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/amazon/pageLocaters/LoginPageLocators.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/utilites/PropertiesFile.java
+/Users/test/git/Learning2/Demo_amazon2/src/test/java/com/amazon/stepdefinitions/LoginStepDefinitions.java
