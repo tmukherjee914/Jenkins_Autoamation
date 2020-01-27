@@ -1,27 +1,7 @@
-pipeline {
-    agent any 
-    stages {
-        stage('Sourabh') {
-         
-            steps {
-              
-              sh 'mvn clean compile'
-             
-            }
-        }
-        stage('Abhishek') { 
-            steps {
-              
-              sh 'mvn test'
-              
-        	}
-        }
-        stage('Trideep') { 
-            steps {
-            
-              sh 'mvn deploy'
-             
-            }
-        }
-    }
+node{
+stage('Run')
+  {
+  sh "mvn -f Learning2/Demo_amazon2/pom.xml clean install"
+}
+
 }
